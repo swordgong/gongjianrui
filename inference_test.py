@@ -32,7 +32,7 @@ class DescriptionCompressor:
         
     def _init_hunyuan_client(self):
         """初始化混元客户端"""
-        cred = credential.Credential("AKID76tSoxsZ3LTO6g3FF2f6KK6f082lGajg", "iHpETdcQI0Wr0xhDWijYAYkjT0LUP7bt")
+        cred = credential.Credential("AKID76tSoxsZ3LTO6", "iHpETdcQI0Wr0xhDW")
         http_profile = HttpProfile(endpoint="hunyuan.tencentcloudapi.com")
         client_profile = ClientProfile(httpProfile=http_profile)
         return hunyuan_client.HunyuanClient(cred, "ap-guangzhou", client_profile)
