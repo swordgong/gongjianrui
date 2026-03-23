@@ -4,3 +4,4 @@ output/
 data/
 cache/
 MACE_Finetuned_Models/chineseconceptnet.csv
+chineseconceptnet.csv
