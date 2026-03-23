@@ -3,4 +3,4 @@ saved_model/
 output/
 data/
 cache/
-MACE_Finetuned_Models/
+MACE_Finetuned_Models/chineseconceptnet.csv
